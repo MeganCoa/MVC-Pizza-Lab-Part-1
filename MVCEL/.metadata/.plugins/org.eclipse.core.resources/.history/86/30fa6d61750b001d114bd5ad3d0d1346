@@ -1,0 +1,11 @@
+package co.grandcircus.demo.model;
+
+import java.util.ArrayList;
+
+public class MagicPet {
+	private String name;
+	private String type;
+	private ArrayList<String> powers;
+	private Boolean good_boy;
+	private int age;
+}

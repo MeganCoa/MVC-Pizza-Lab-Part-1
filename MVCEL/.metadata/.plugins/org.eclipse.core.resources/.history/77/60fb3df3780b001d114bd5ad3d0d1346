@@ -1,0 +1,14 @@
+package co.grandcircus.demo.controller;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+
+@Controller
+public class MagicPetController {
+	
+	@RequestMapping("/magicpets")
+	public String showAllPets(Model model) {
+		return "magicpets";
+	}
+}

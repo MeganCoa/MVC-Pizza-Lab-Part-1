@@ -1,0 +1,8 @@
+package co.grandcircus.demo.model;
+
+public class MagicPet {
+	private String name;
+	private String type;
+	private String power;
+	private Boolen
+}

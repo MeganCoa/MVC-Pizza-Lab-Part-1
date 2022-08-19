@@ -1,0 +1,37 @@
+body{
+	background-color: #bbc5db;
+}
+
+.header{
+	padding: 60px;
+	text-align: center;
+	background: #d57e78;
+	color: white;
+	font-size: 30px;
+}
+.button {
+	background-color: #e25e4c;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 8px;
+	transition-duration: 0.4s;
+  }
+  .button:hover{
+	background-color: #828595;
+	color: black;
+  }
+
+  .animal{
+	background-color:white;
+	color: #d57e78;
+	font-weight: 500;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	border-radius: 50px;
+	text-align: center;
+	padding: 15px 50px;
+}

@@ -1,0 +1,5 @@
+package co.grandcircus.demo.model;
+
+public class Pet {
+
+}

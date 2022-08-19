@@ -1,0 +1,2 @@
+/.metadata/
+/spring-data-demo/src/main/resources/config/application.properties

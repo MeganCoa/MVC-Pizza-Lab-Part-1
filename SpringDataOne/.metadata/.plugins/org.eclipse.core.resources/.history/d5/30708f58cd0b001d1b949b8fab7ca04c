@@ -1,0 +1,9 @@
+package grandcircus.co.springdatademo;
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document("animals") // Or whatever collection name you want
+public class Animal {
+
+}

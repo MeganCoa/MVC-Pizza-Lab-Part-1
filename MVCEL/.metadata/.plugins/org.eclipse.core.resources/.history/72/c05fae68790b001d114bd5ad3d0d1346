@@ -1,0 +1,22 @@
+package co.grandcircus.demo.controller;
+import java.lang.reflect.Array;
+import java.util.Collections;
+import java.util.List;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import co.grandcircus.demo.model.MagicPet;
+
+
+@Controller
+public class MagicPetController {
+	private static final List<MagicPet> PETS = Collections.unmodifiableList(Array.asList(
+			new MagicPet("Charlie", "unicorn", new ArrayList(Arrays.asList("snarkiness","lying", "cheater")), false, 42
+			));
+	@RequestMapping("/magicpets")
+	public String showAllPets(Model model) {
+		return "magicpets";
+	}
+}
